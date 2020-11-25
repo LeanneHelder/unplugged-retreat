@@ -83,9 +83,61 @@ textarea {
   resize: vertical;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+ /* ==========================================================================
+      Author's custom styles
+      ========================================================================== */
+
+   html {
+font-size: 16px;
+
+   }
+
+   body {
+font-family: 'Open Sans', sans-serif;
+font-size: 1em;
+   }
+
+   ul,
+   ol {
+
+   }
+
+   a {
+color: #e2e3ed;
+text-decoration: none;
+   }
+
+   h2 {
+font-family: 'Poppins', sans-serif;
+font-size: 3em;
+   }
+
+   h3,
+   h4 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 2em;
+   }
+
+   p {
+
+   }
+
+   img {
+
+   }
+
+   figure {
+
+   }
+
+   address {
+
+   }
+
+   .content-wrapper {
+
+   }
+
 
 /* Base Header - Footer Styles */
 
@@ -554,6 +606,58 @@ footer .copyright {
 @media only screen and (min-width: 1200px) {
   /* Desktop styles here */
 }
+
+.content-wrapper {
+  max-width: 960px;
+}
+
+/* Hero */
+
+.hero-area h1 {
+  width: 60%;
+}
+
+/* Aside */
+
+aside .content-wrapper {
+  justify-content: space-around;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: 30%;
+}
+
+.features h2 {
+  width: 90%;
+}
+
+.features article {
+  flex-basis: 33%;
+}
+
+.reviews article div {
+  width: 42%;
+}
+
+/* ==========================================================================
+About Page
+========================================================================== */
+
+.mission h2,
+.contact-section .content-wrapper h2 {
+    width: 95%;
+}
+
+/* ==========================================================================
+FAQ Page
+========================================================================== */
+.faq h2 {
+  width: 100%;
+}
+
+
+
 
 /* Tablet styles here */
 
